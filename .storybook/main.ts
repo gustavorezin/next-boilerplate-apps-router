@@ -7,9 +7,9 @@ const config: StorybookConfig = {
     name: '@storybook/nextjs',
     options: {}
   },
-  docs: {
+  /* docs: {
     autodocs: true
-  },
+  }, */
   staticDirs: ['../public'],
   webpackFinal: (config) => {
     config.resolve?.modules?.push(`${process.cwd()}/src`)
